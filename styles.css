@@ -1,0 +1,70 @@
+
+/* Font Selections:
+font-family: 'Roboto', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Encode Sans Semi Condensed', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Dosis', sans-serif; */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #707070;
+
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
+header {
+	width: 100%;
+	background-color: #ba5f06;
+}
+
+h1 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	color: #004580;
+	background-color: #ba5f06;
+	padding: 20px;
+}
+
+.content {
+	width: 400px;
+	float: left;
+}
+
+.content p {
+
+}
+
+.monkeyPics {
+	width: 400px;
+	float: right;
+}
+
+#baby1 {
+	clear: both;
+	width: 200px;
+	height: 300px;
+}
+
+#baby2 {
+	width: 200px;
+	float: right;
+}
+
+#blue-monkey {
+	width: 400px;
+}
+
+#jordanMonkey {
+	width: 400px;
+}
+
