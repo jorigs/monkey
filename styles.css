@@ -18,10 +18,6 @@ body {
 
 }
 
-.wrapper {
-	width: 900px;
-	margin: 0 auto 0 auto;
-}
 
 header {
 	width: 100%;
@@ -35,6 +31,11 @@ h1 {
 	padding: 20px;
 }
 
+.wrapper {
+	width: 900px;
+	margin: 0 auto 0 auto;
+}
+
 .content {
 	width: 400px;
 	float: left;
@@ -44,13 +45,56 @@ h1 {
 
 }
 
+/* Random Facts - JS */
+
+section {
+	clear: both;
+	width: 400px;
+}
+
+section h2 {
+	clear: both;
+	color: #004580;
+	padding: 5px;
+	margin-left: 20px; 
+	margin-right: 20px;  
+	text-align: center;
+	border-bottom: 2px solid lightgrey;
+	font-family: 'Roboto', sans-serif;
+}
+
+#quoteDisplay {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: 1px solid #4aaaa5;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	text-align: center; 
+}
+
+button:hover {
+	background-color: white;
+	color: #4aaaa5;
+	border: 1px solid #4aaaa5;
+}
+
+
+/* MONKEY PICTURES - FLOATED RIGHT */
+
 .monkeyPics {
+	clear: both;
 	width: 400px;
 	float: right;
 }
 
 #baby1 {
-	clear: both;
 	width: 200px;
 	height: 300px;
 }
@@ -67,4 +111,5 @@ h1 {
 #jordanMonkey {
 	width: 400px;
 }
+
 
